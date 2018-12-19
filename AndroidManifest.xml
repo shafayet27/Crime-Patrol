@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rkbless.crimepatrol"
+    android:versionCode="6"
+    android:versionName="5.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Crime Patrol"
+        android:theme="@style/MyCustomTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.rkbless.crimepatrol.MainActivity"
+            android:label="Crime Patrol" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.FrontPage_Title"
+            android:label="@string/title_activity_front_page__title" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best20"
+            android:label="@string/title_activity_best20" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August2016"
+            android:label="@string/title_activity_august2016" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.September2016"
+            android:label="@string/title_activity_september2016" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Share"
+            android:label="@string/title_activity_share" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best1"
+            android:label="@string/title_activity_best1" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best2"
+            android:label="@string/title_activity_best2" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best3"
+            android:label="@string/title_activity_best3" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best4"
+            android:label="@string/title_activity_best4" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best5"
+            android:label="@string/title_activity_best5" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best6"
+            android:label="@string/title_activity_best6" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best7"
+            android:label="@string/title_activity_best7" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best8"
+            android:label="@string/title_activity_best8" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best9"
+            android:label="@string/title_activity_best9" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best10"
+            android:label="@string/title_activity_best10" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best11"
+            android:label="@string/title_activity_best11" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best12"
+            android:label="@string/title_activity_best12" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best13"
+            android:label="@string/title_activity_best13" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best14"
+            android:label="@string/title_activity_best14" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best15"
+            android:label="@string/title_activity_best15" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best16"
+            android:label="@string/title_activity_best16" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best17"
+            android:label="@string/title_activity_best17" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best18"
+            android:label="@string/title_activity_best18" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Best19"
+            android:label="@string/title_activity_best19" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.BestVideo20"
+            android:label="@string/title_activity_best_video20" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August1"
+            android:label="@string/title_activity_august1" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August2"
+            android:label="@string/title_activity_august2" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August3"
+            android:label="@string/title_activity_august3" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August4"
+            android:label="@string/title_activity_august4" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August5"
+            android:label="@string/title_activity_august5" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August6"
+            android:label="@string/title_activity_august6" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August7"
+            android:label="@string/title_activity_august7" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August8"
+            android:label="@string/title_activity_august8" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August9"
+            android:label="@string/title_activity_august9" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August10"
+            android:label="@string/title_activity_august10" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August11"
+            android:label="@string/title_activity_august11" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August12"
+            android:label="@string/title_activity_august12" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August13"
+            android:label="@string/title_activity_august13" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August14"
+            android:label="@string/title_activity_august14" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August15"
+            android:label="@string/title_activity_august15" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August16"
+            android:label="@string/title_activity_august16" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August17"
+            android:label="@string/title_activity_august17" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August18"
+            android:label="@string/title_activity_august18" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August19"
+            android:label="@string/title_activity_august19" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August20"
+            android:label="@string/title_activity_august20" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August21"
+            android:label="@string/title_activity_august21" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August22"
+            android:label="@string/title_activity_august22" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August23"
+            android:label="@string/title_activity_august23" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August24"
+            android:label="@string/title_activity_august24" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August25"
+            android:label="@string/title_activity_august25" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August26"
+            android:label="@string/title_activity_august26" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August27"
+            android:label="@string/title_activity_august27" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August28"
+            android:label="@string/title_activity_august28" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August29"
+            android:label="@string/title_activity_august29" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August30"
+            android:label="@string/title_activity_august30" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.August31"
+            android:label="@string/title_activity_august31" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep1"
+            android:label="@string/title_activity_sep1" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep2"
+            android:label="@string/title_activity_sep2" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep3"
+            android:label="@string/title_activity_sep3" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep4"
+            android:label="@string/title_activity_sep4" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep5"
+            android:label="@string/title_activity_sep5" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep6"
+            android:label="@string/title_activity_sep6" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep7"
+            android:label="@string/title_activity_sep7" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep8"
+            android:label="@string/title_activity_sep8" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep9"
+            android:label="@string/title_activity_sep9" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep10"
+            android:label="@string/title_activity_sep10" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep11"
+            android:label="@string/title_activity_sep11" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep12"
+            android:label="@string/title_activity_sep12" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep13"
+            android:label="@string/title_activity_sep13" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep14"
+            android:label="@string/title_activity_sep14" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep15"
+            android:label="@string/title_activity_sep15" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep16"
+            android:label="@string/title_activity_sep16" >
+        </activity>
+        <activity
+            android:name="com.rkbless.crimepatrol.Sep17"
+            android:label="@string/title_activity_sep17" >
+        </activity>
+    </application>
+
+</manifest>
